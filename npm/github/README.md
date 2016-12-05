@@ -1,4 +1,4 @@
 # How to NPM Install Private Repos from GitHub
 
-1. [Publish Private Package](./publishing.md)
-2. [Use Private Package](./using.md)
+1. [Package Private Repo](./package.md)
+2. [Install from Private Repo](./install.md)
