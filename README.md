@@ -1,3 +1,3 @@
-# beanstalk-hacks
+# Beanstalk Hacks
 
-*todo: table of contents*
+* [How to NPM Install Private Repos from GitHub](./npm/github)
