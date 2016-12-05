@@ -3,7 +3,7 @@ To allow an Elastic Beanstalk environment to npm install from a private GitHub r
 
 1. Add GitHub deploy key:
 
-    1. In repo's source code, create a new `.ebextensions/github.config` file. Copy and paste this exact content into it:
+    1. Create a new `.ebextensions/github.config` file. Copy and paste this exact content into it:
 
         ```yaml
         files:
