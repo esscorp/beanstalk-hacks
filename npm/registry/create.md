@@ -1,10 +1,4 @@
-# Publish Private NPM Module
-
-* First run: [Create New Module](#create-new-module)
-
-* Future runs: [Update Existing Module](#update-existing-module)
-
-## Create New Module
+# Create Private NPM Module
 To publish a new, private npm module:
 
 1. Sign in as one of the members of your npm organization (https://www.npmjs.com/org/your-organization/members).
@@ -43,36 +37,6 @@ To publish a new, private npm module:
       "name": "@<your-organization>/<package-name>",
     ```
 
-
-3. Save changes.
-
-    ```bash
-    git add -A && git commit;
-    git push origin master;
-    ```
-
-4. Publish to npm.
-
-    ```bash
-    npm publish --access=private;
-    ```
-
-## Update Existing Module
-To publish an update to a private npm module:
-
-1. Open `package.json`
-
-2. Bump up the version [according to semantic versioning](https://docs.npmjs.com/getting-started/semantic-versioning). Example:
-
-    ```text
-    "version": "1.0.0",
-    ```
-
-    to:
-
-    ```text
-    "version": "1.0.1",
-    ```
 
 3. Save changes.
 
