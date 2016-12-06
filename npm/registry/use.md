@@ -58,9 +58,9 @@ To allow an Elastic Beanstalk application to npm install your private npm module
 
     4. Under `Enivronment Properties`, add a new property:
 
-        | Property Name  | Property Value                       |
-        | -------------- | --------------                       |
-        | NPM_TOKEN      | <paste-NPM_TOKEN-here> |
+        | Property Name  | Property Value           |
+        | -------------- | --------------           |
+        | NPM_TOKEN      | \<paste-NPM_TOKEN-here\> |
 
     5. Click the **+** sign
 
