@@ -113,7 +113,7 @@ To allow an Elastic Beanstalk application to npm install your private npm module
 
     4. Click `Swap Environment URLs`.
 
-    5. Verify the `Environment name`'s and `Environment URL`'s are correct.
+    5. Verify the `Environment name` and `Environment URL` are correct.
 
     6. Click `Swap`.
 
