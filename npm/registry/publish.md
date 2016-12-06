@@ -54,7 +54,7 @@ To publish a new, private npm module:
 4. Publish to npm.
 
     ```bash
-    npm publish;
+    npm publish --access=private;
     ```
 
 ## Update Existing Module
