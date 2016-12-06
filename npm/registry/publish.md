@@ -62,12 +62,14 @@ To publish an update to a private npm module:
 
 1. Open `package.json`
 
-2. Bump up the version [according to semantic versioning](https://docs.npmjs.com/getting-started/semantic-versioning). Example:  
+2. Bump up the version [according to semantic versioning](https://docs.npmjs.com/getting-started/semantic-versioning). Example:
+
     ```text
     "version": "1.0.0",
     ```
 
     to:
+
     ```text
     "version": "1.0.1",
     ```
