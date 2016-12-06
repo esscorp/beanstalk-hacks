@@ -19,7 +19,25 @@ To allow an Elastic Beanstalk application to npm install your private npm module
     npm login;
     ```
 
-2. **!!!VITAL!!!** ***NEVER*** logout (`npm logout`).
+2. Copy your `authToken` for the npm registry to the clipboard:
+
+    * OS X:
+
+        ```bash
+        url="$(cat ~/.npmrc | grep '//registry.npmjs.org' | tail -n 1)";
+        NPM_TOKEN="${url##*authToken=}";
+        echo "${NPM_TOKEN}" | pbcopy;
+        ```
+
+    * Linux
+
+        ```bash
+        url="$(cat ~/.npmrc | grep '//registry.npmjs.org' | tail -n 1)";
+        NPM_TOKEN="${url##*authToken=}";
+        echo "${NPM_TOKEN}" | xclip -selection clipboard;
+        ```
+
+3. **!!!VITAL!!!** ***NEVER*** logout (`npm logout`).
 
     * If you do, you will need to redo all of the steps on this page for all of your Elastic Beanstalk environments which need access to your private npm modules.
 
@@ -31,24 +49,6 @@ To allow an Elastic Beanstalk application to npm install your private npm module
         rm ~/.npmrc;
         npm login;
         ```
-
-3. Copy your `authToken` for the npm registry to the clipboard:
-
-    * OS X:
-
-        ```bash
-        url="$(cat ~/.npmrc | grep '//registry.npmjs.org' | tail -n 1)";
-        NPM_TOKEN="${url##*authToken=}";
-        echo "${NPM_TOKEN}" | xclip -selection clipboard;
-        ```
-
-    * Linux
-
-        ```bash
-        url="$(cat ~/.npmrc | grep '//registry.npmjs.org' | tail -n 1)";
-        NPM_TOKEN="${url##*authToken=}";
-        echo "${NPM_TOKEN}" | xclip -selection clipboard;
-            ```
 
 ## Use Auth Token
 
