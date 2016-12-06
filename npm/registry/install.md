@@ -1,5 +1,5 @@
 # Install Private Modules
-To allow an Elastic Beanstalk application to npm install your private npm modules:
+To allow an Elastic Beanstalk environment to npm install your private npm modules:
 
 1. Get npm authentication token.
 
