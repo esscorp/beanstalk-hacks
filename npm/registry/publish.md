@@ -82,7 +82,7 @@ To publish an update to a private npm module:
 4. Publish to npm.
 
     ```bash
-    npm publish;
+    npm publish --access=private;
     ```
 
 ## Resources
