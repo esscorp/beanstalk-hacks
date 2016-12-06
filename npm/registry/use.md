@@ -13,7 +13,11 @@ To allow an Elastic Beanstalk application to npm install your private npm module
 
 ## Create Auth Token
 
-1. Create dummy npm user for your organization (https://www.npmjs.com/org/your-organization/members).
+1. Sign in as one of the members of your organization (https://www.npmjs.com/org/your-organization/members).
+
+    ```bash
+    npm login;
+    ```
 
 2. **!!!VITAL!!!** ***NEVER*** logout (`npm logout`).
 
@@ -56,7 +60,7 @@ To allow an Elastic Beanstalk application to npm install your private npm module
 
     3. Navigate to `Configuration` > `Software Configuration`
 
-    4. Under `Environment Properties`, add a new property:
+    4. Under `Enivronment Properties`, add a new property:
 
         | Property Name  | Property Value           |
         | -------------- | --------------           |
