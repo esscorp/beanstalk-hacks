@@ -88,7 +88,6 @@ To allow an Elastic Beanstalk environment to npm install your private npm module
             "/tmp/.npmrc":
                 content: |
                     //registry.npmjs.org/:_authToken=${NPM_TOKEN}
-        #
         ```
 
 ## Deploy
